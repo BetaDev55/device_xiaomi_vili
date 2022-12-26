@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_vili.mk
+    $(LOCAL_DIR)/cherish_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_vili-user \
-    aosp_vili-userdebug \
-    aosp_vili-eng
+    cherish_vili-user \
+    cherish_vili-userdebug \
+    cherish_vili-eng

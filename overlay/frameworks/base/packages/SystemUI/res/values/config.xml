@@ -22,5 +22,5 @@
     <bool name="config_enableDisplayCutoutProtection">true</bool>
 
     <!-- Icon visibility -->
-    <integer name="config_maxVisibleStatusIconContainer">Your value </integer> // Default is 7
+    <integer name="config_maxVisibleStatusIconContainer">Your value </integer>
 </resources>

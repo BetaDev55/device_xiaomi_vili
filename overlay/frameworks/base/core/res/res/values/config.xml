@@ -260,4 +260,10 @@
     <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
+    <!-- Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <!-- Whether Multiuser UI should be shown -->
+    <bool name="config_enableMultiUserUI">true</bool>    
 </resources>

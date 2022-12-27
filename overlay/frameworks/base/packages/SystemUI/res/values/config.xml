@@ -20,4 +20,6 @@
 
     <!--  Flag to turn on the rendering of the above path or not  -->
     <bool name="config_enableDisplayCutoutProtection">true</bool>
+    <!-- Icon visibility -->
+    <integer name="config_maxVisibleStatusIconContainer">7</integer>
 </resources>

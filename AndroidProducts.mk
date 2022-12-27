@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_vili.mk
+    $(LOCAL_DIR)/spark_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_vili-user \
-    cherish_vili-userdebug \
-    cherish_vili-eng
+    spark_vili-user \
+    spark_vili-userdebug \
+    spark_vili-eng

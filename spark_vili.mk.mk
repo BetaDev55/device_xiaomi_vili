@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vili/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/cherish/config/common.mk)
+$(call inherit-product, vendor/spark/config/common.mk)
 
 # Inherit some AOSP build stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -24,11 +24,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2107113SG
-PRODUCT_NAME := cherish_vili
+PRODUCT_NAME := spark_vili
 
-CHERISH_BUILD_TYPE := UNOFFICIAL
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=BetaDev55
+SPARK_BUILD_TYPE := UNOFFICIAL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="vili-user 12 RKQ1.211001.001 V13.0.20.0.SKDEUXM release-keys"

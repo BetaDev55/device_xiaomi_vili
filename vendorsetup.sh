@@ -1,1 +1,1 @@
-add_lunch_combo cherish_vili-userdebug
+add_lunch_combo spark-userdebug

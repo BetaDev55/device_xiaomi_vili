@@ -179,7 +179,6 @@ vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/libAF.so
 vendor/lib64/libFlickerDet.so
 vendor/lib64/libI420colorconvert.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libSNPE.so
 vendor/lib64/lib_sr_models.so
@@ -514,7 +513,6 @@ vendor/lib/libmmcamera_mfnr_t4.so
 vendor/lib/libmmcamera_pdpc.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
-vendor/lib64/libmegface.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_faceproc.so
@@ -595,6 +593,9 @@ vendor/etc/camera/vili_motiontuning.xml
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
 
+# Camera service
+lib64/libcameraservice.so
+
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
 
@@ -663,7 +664,6 @@ vendor/lib64/android.hardware.biometrics.fingerprint@2.2.so
 vendor/lib64/android.hardware.biometrics.fingerprint@2.3.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
-
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/com.fingerprints.extension@3.0.so
 vendor/lib64/libgf_ca.so

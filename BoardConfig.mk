@@ -18,6 +18,16 @@ TARGET_BOOTLOADER_BOARD_NAME := vili
 # Firmware
 -include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
 
+# HIDL
+ODM_MANIFEST_SKUS := \
+    vili \
+    vilijp
+
+NFC_ESE_MANIFEST := $(DEVICE_PATH)/hidl/nfc_ese.xml
+
+ODM_MANIFEST_VILI_FILES := $(NFC_ESE_MANIFEST)
+ODM_MANIFEST_VILIJP_FILES := $(NFC_ESE_MANIFEST)
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/vili_QGKI.config
 
@@ -33,6 +43,9 @@ TARGET_OTA_ASSERT_DEVICE := vili
 
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Vibrator
 SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true

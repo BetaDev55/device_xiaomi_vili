@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">34.05</item>
-    <item name="screen.full">356.9</item>
+    <item name="screen.on.display0">34.05</item>
+    <item name="screen.full.display0">356.9</item>
     <array name="cpu.clusters.cores">
         <value>4</value>
         <value>3</value>
@@ -129,8 +129,8 @@
     <item name="wifi.on">0.88</item>
     <item name="wifi.active">261.945</item>
     <item name="wifi.scan">16.83</item>
-    <item name="dsp.audio">12.81</item>
-    <item name="dsp.video">39.09</item>
+    <item name="audio">12.81</item>
+    <item name="video">39.09</item>
     <item name="camera.flashlight">339.94</item>
     <item name="camera.avg">440.93</item>
     <item name="gps.on">36</item>
